@@ -1,23 +1,18 @@
 <header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
+    <nav class="main-nav navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
         <div class="container">
-            <a class="navbar-brand" [routerLink]="['/home']">Meus Produtos</a>
-            <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse" >
-
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" [routerLink]="['/home']">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" [routerLink]="['/fornecedores/listar-todos']">Fornecedores</a>
-                    </li>
-                    <li class=" nav-item ">
-                        <a class="nav-link text-dark " [routerLink]="['/produtos/listar-todos']">Produtos</a>
-                    </li>
-                </ul>
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
+                <form class="form-inline" id="frm-login">
+                    <div class="form-group mb-2">
+                        <label for="staticEmail2">Usuário </label>
+                        <input class="form-control" id="email" type="text" value="usuario@gmail.com" placeholder="E-mail (requerido)" formControlName="email" />
+                    </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                        <label for="inputPassword2">Senha </label>
+                        <input class="form-control" id="password" type="password" value="1234" placeholder="Senha (requerido)" formControlName="password" />
+                    </div>
+                    <a class="btn btn-primary mb-2" href="/admin.html" role="button">Acessar <i class="fas fa-user"></i></a>
+                </form>
             </div>
         </div>
     </nav>

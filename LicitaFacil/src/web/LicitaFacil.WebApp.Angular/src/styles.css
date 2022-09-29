@@ -8,7 +8,7 @@ a.navbar-brand {
     padding-top: 25px;
     padding-right: 15px;
     padding-left: 15px;
-    padding-bottom: 100px;
+    padding-bottom: 0;
     margin-right: auto;
     margin-left: auto;
     overflow: hidden;
@@ -75,4 +75,18 @@ select,
 file,
 textarea {
     max-width: 400px;
+}
+nav.main-nav {
+    position: relative;
+    float: left;
+    width: 100%;
+    background: #002852 !important;
+    border-bottom: 1px #bfbfbf solid !important;
+}
+#frm-login label {
+    color: #fff;
+    margin-right: 10px;
+}
+header.bg-primary.py-5.mb-5 {
+    padding-bottom: 4px!important;
 }
