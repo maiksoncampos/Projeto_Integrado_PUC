@@ -1,0 +1,82 @@
+.fundo-azul {
+    background: #002852 !important;
+}
+a.nav-link {
+    color: #fff;
+}
+#resultado-busca input.form-check-input {
+    margin: 7px 0 0 0;
+}
+input.qtd {
+    max-width: 53px;
+    float: left;
+    margin: 31px 0 0 6px;
+}
+label.lbl-qtd {
+    float: left;
+    margin-top: 42px;
+    margin-left: 25px;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+.corpo, #coluna-menu {
+    height: 100%;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ccc;
+    height: 30px;
+}
+label.custom-control-label {
+    width: 95px;
+    margin-top: 12%;
+}
+
+.form-check.cat-ser {
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+}
+label.form-check-label {
+    width: 85px;
+    margin: 0px;
+}
+.float-right.teste {
+    width: 100%;
+    text-align: right;
+}
+
+form#frm-busca {
+    margin-bottom: 20px;
+}
+form#frm-busca {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 25px;
+}
+#resultado-busca{
+    margin-bottom:25px;
+}
+#titulo-resultado{
+    float:left
+}
+#btn-salvar {
+    float: right;
+    margin: 0 0 18px 0;
+}
+div#nav-tab a {
+    color: #000;
+}
+button#pesquisar-fornecedores {
+    float: right;
+}
+#frm-busca-fornecedores{
+    margin-bottom:20px;
+}
